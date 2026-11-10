@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#090912">
+  <meta name="description" content="MAGIC FORCE SYSTEM – deine digitale Zauberzentrale.">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+  <title>MAGIC FORCE SYSTEM</title>
+</head>
+<body>
+<div class="app-shell">
+  <aside class="sidebar">
+    <button class="brand" id="brandSecret" aria-label="MAGIC FORCE SYSTEM">
+      <span class="brand-mark">✦</span><span><b>MAGIC FORCE</b><small>SYSTEM</small></span>
+    </button>
+    <nav id="sideNav" class="nav-list" aria-label="Hauptnavigation"></nav>
+    <div class="sidebar-foot"><span class="live-dot"></span> Offline bereit <small>v1.0</small></div>
+  </aside>
+  <main class="main">
+    <header class="topbar">
+      <button class="mobile-brand" id="mobileBrand">✦ <b>MAGIC FORCE</b></button>
+      <div class="topbar-right"><span class="status-pill"><i></i> Privat gespeichert</span><button class="icon-btn" id="openMagician" title="Magier-Menü">⌘</button></div>
+    </header>
+    <div id="view" class="view" tabindex="-1"></div>
+  </main>
+</div>
+<nav id="mobileNav" class="mobile-nav" aria-label="Mobile Navigation"></nav>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<div id="modalRoot"></div>
+<script src="app.js"></script>
+</body>
+</html>

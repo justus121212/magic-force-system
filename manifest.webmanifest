@@ -1,0 +1,11 @@
+{
+  "name": "MAGIC FORCE SYSTEM",
+  "short_name": "MAGIC FORCE",
+  "description": "Deine digitale Zauberzentrale",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#090912",
+  "theme_color": "#090912",
+  "orientation": "portrait",
+  "icons": []
+}
